@@ -47,6 +47,7 @@ public class WIGLEDataManager : MonoBehaviour
     {
         EventManager.StartListening("MAP_LATLONG_BOUNDS", WIGLEDataManager_MAP_LATLONG_BOUNDS_CallBackFunction);
         print("wigledatamanager start");
+        print("code is speech");
 
         // - After 0 seconds, prints "Before WaitAndPrint Finishes 0.0"
         // - After 2 seconds, prints "WaitAndPrint 2.0"
